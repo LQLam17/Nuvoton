@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: lam le, natech, LIC=IK1BF-6FNAU-SBZEJ-UCCTW-TR57L-4SXC5
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14
+Assembler:       Armasm.exe V6.14
+Linker/Locator:  ArmLink.exe V6.14
+Library Manager: ArmAr.exe V6.14
+Hex Converter:   FromElf.exe V6.14
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.3.0
+Target DLL:      NULink\Nu_Link.dll V3.18
+Dialog DLL:      TARMCM1.DLL V1.14.2.0
+ 
+<h2>Project:</h2>
+D:\Nuvoton\templete_Minh\bsp_Nuc220_mesh\ide_project\bsp_nuc220xx.uvprojx
+Project File Date:  02/11/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+compiling bsp_nuc220x_BootLoader.c...
+linking...
+.\Objects\bsp_nuc220xx.axf: Warning: L6803W: Relocation #REL:1 in retarget.o(.text.HardFault_Handler) with respect to retarget.o. Thumb Branch is unlikely to reach target inHard_Fault_Handler(.text.Hard_Fault_Handler).
+.\Objects\bsp_nuc220xx.axf: Warning: L6803W: Relocation #REL:2 in retarget.o(.text.HardFault_Handler) with respect to retarget.o. Thumb Branch is unlikely to reach target inHard_Fault_Handler(.text.Hard_Fault_Handler).
+.\Objects\bsp_nuc220xx.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+Program Size: Code=9640 RO-data=652 RW-data=44 ZI-data=1268  
+Finished: 0 information, 3 warning and 0 error messages.
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin ".\Objects\bsp_nuc220xx.axf" --output ".\Objects\bsp_nuc220xx.bin"
+After Build - User command #2: fromelf --text -c ".\Objects\bsp_nuc220xx.axf" --output ".\Objects\bsp_nuc220xx.txt"
+".\Objects\bsp_nuc220xx.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Nuvoton
+                https://github.com/OpenNuvoton/cmsis-packs/raw/master/Nuvoton_DFP/Nuvoton.NuMicro_DFP.1.3.25.pack
+                Nuvoton.NuMicro_DFP.1.3.25
+                Nuvoton ARM Cortex-M NuMicro Family Device Support
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\PC\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.25\Device\NUC200\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

@@ -1,0 +1,22 @@
+--cpu Cortex-M0
+".\objects\bsp_nuc220x_uart.o"
+".\objects\bsp_nuc220x_system.o"
+".\objects\bsp_nuc220x_rtc.o"
+".\objects\bsp_nuc220x_bootloader.o"
+".\objects\system_nuc200series.o"
+".\objects\startup_nuc200series.o"
+".\objects\acmp.o"
+".\objects\clk.o"
+".\objects\fmc.o"
+".\objects\gpio.o"
+".\objects\retarget.o"
+".\objects\rtc.o"
+".\objects\sys.o"
+".\objects\timer.o"
+".\objects\uart.o"
+".\objects\wdt.o"
+".\objects\main.o"
+--library_type=microlib --strict --scatter ".\Objects\bsp_nuc220xx.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\bsp_nuc220xx.map" -o .\Objects\bsp_nuc220xx.axf

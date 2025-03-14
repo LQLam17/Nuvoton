@@ -1,0 +1,465 @@
+Dependencies for Project 'bsp_nuc220xx', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6140000::V6.14::ARMCLANG
+F (..\bsp_src\bsp_nuc220x_UART.c)(0x67AACCA6)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -w -I ../cpu_src/Library/CMSIS/Include -I ../cpu_src/Library/Device/Nuvoton/NUC200Series/Include -I ../cpu_src/Library/StdDriver/inc -I ../bsp_src -I ../indep_src-IC:/Users/PC/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25/Device/NUC200/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531"-o ./objects/bsp_nuc220x_uart.o -MD)
+I (..\bsp_src\bsp_nuc220x_UART.h)(0x67AACCA8)
+I (..\bsp_src\bsp_nuc220x_system.h)(0x67A46E06)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED619F4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5ED619F4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED619F4)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\NUC200Series.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cm0.h)(0x67A46776)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\cpu_src\Library\CMSIS\Include\core_cmInstr.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cmFunc.h)(0x67A46776)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\system_NUC200Series.h)(0x67A46E06)
+I (..\cpu_src\Library\StdDriver\inc\sys.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\adc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\fmc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\gpio.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2c.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pwm.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\spi.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\crc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\timer.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wwdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\rtc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\uart.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2s.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\usbd.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pdma.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\sc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\ps2.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\clk.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\acmp.h)(0x67A46776)
+F (..\bsp_src\bsp_nuc220x_system.c)(0x67AAC67B)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -w -I ../cpu_src/Library/CMSIS/Include -I ../cpu_src/Library/Device/Nuvoton/NUC200Series/Include -I ../cpu_src/Library/StdDriver/inc -I ../bsp_src -I ../indep_src-IC:/Users/PC/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25/Device/NUC200/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531"-o ./objects/bsp_nuc220x_system.o -MD)
+I (..\bsp_src\bsp_nuc220x_system.h)(0x67A46E06)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED619F4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5ED619F4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED619F4)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\NUC200Series.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cm0.h)(0x67A46776)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\cpu_src\Library\CMSIS\Include\core_cmInstr.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cmFunc.h)(0x67A46776)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\system_NUC200Series.h)(0x67A46E06)
+I (..\cpu_src\Library\StdDriver\inc\sys.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\adc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\fmc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\gpio.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2c.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pwm.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\spi.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\crc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\timer.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wwdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\rtc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\uart.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2s.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\usbd.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pdma.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\sc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\ps2.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\clk.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\acmp.h)(0x67A46776)
+I (..\bsp_src\bsp_nuc220x_UART.h)(0x67AACCA8)
+F (..\bsp_src\bsp_nuc220x_RTC.c)(0x67A46776)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -w -I ../cpu_src/Library/CMSIS/Include -I ../cpu_src/Library/Device/Nuvoton/NUC200Series/Include -I ../cpu_src/Library/StdDriver/inc -I ../bsp_src -I ../indep_src-IC:/Users/PC/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25/Device/NUC200/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531"-o ./objects/bsp_nuc220x_rtc.o -MD)
+I (..\bsp_src\bsp_nuc220x_RTC.h)(0x67A46776)
+I (..\bsp_src\bsp_nuc220x_system.h)(0x67A46E06)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED619F4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5ED619F4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED619F4)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\NUC200Series.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cm0.h)(0x67A46776)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\cpu_src\Library\CMSIS\Include\core_cmInstr.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cmFunc.h)(0x67A46776)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\system_NUC200Series.h)(0x67A46E06)
+I (..\cpu_src\Library\StdDriver\inc\sys.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\adc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\fmc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\gpio.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2c.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pwm.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\spi.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\crc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\timer.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wwdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\rtc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\uart.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2s.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\usbd.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pdma.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\sc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\ps2.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\clk.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\acmp.h)(0x67A46776)
+F (..\bsp_src\bsp_nuc220x_BootLoader.c)(0x67ADA01A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -w -I ../cpu_src/Library/CMSIS/Include -I ../cpu_src/Library/Device/Nuvoton/NUC200Series/Include -I ../cpu_src/Library/StdDriver/inc -I ../bsp_src -I ../indep_src-IC:/Users/PC/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25/Device/NUC200/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531"-o ./objects/bsp_nuc220x_bootloader.o -MD)
+I (..\bsp_src\bsp_nuc220x_BootLoader.h)(0x67AC5B67)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED619F4)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\NUC200Series.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cm0.h)(0x67A46776)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\cpu_src\Library\CMSIS\Include\core_cmInstr.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cmFunc.h)(0x67A46776)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\system_NUC200Series.h)(0x67A46E06)
+I (..\cpu_src\Library\StdDriver\inc\sys.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\adc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\fmc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\gpio.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2c.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pwm.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\spi.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\crc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\timer.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wwdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\rtc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\uart.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2s.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\usbd.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pdma.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\sc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\ps2.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\clk.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\acmp.h)(0x67A46776)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED619F4)
+I (..\bsp_src\bsp_nuc220x_UART.h)(0x67AACCA8)
+I (..\bsp_src\bsp_nuc220x_system.h)(0x67A46E06)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5ED619F4)
+F (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Source\system_NUC200Series.c)(0x67A46776)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -w -I ../cpu_src/Library/CMSIS/Include -I ../cpu_src/Library/Device/Nuvoton/NUC200Series/Include -I ../cpu_src/Library/StdDriver/inc -I ../bsp_src -I ../indep_src-IC:/Users/PC/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25/Device/NUC200/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531"-o ./objects/system_nuc200series.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\NUC200Series.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cm0.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cmInstr.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cmFunc.h)(0x67A46776)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\system_NUC200Series.h)(0x67A46E06)
+I (..\cpu_src\Library\StdDriver\inc\sys.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\adc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\fmc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\gpio.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2c.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pwm.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\spi.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\crc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\timer.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wwdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\rtc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\uart.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2s.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\usbd.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pdma.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\sc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\ps2.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\clk.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\acmp.h)(0x67A46776)
+F (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Source\ARM\startup_NUC200Series.s)(0x67A46E06)(--target=arm-arm-none-eabi -mcpu=cortex-m0 -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__MICROLIB SETA 1"-IC:/Users/PC/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25/Device/NUC200/Include-IC:/Keil_v5/ARM/CMSIS/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 531"-o ./objects/startup_nuc200series.o)
+F (..\cpu_src\Library\StdDriver\src\acmp.c)(0x67A46776)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -w -I ../cpu_src/Library/CMSIS/Include -I ../cpu_src/Library/Device/Nuvoton/NUC200Series/Include -I ../cpu_src/Library/StdDriver/inc -I ../bsp_src -I ../indep_src-IC:/Users/PC/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25/Device/NUC200/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531"-o ./objects/acmp.o -MD)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\NUC200Series.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cm0.h)(0x67A46776)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\cpu_src\Library\CMSIS\Include\core_cmInstr.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cmFunc.h)(0x67A46776)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\system_NUC200Series.h)(0x67A46E06)
+I (..\cpu_src\Library\StdDriver\inc\sys.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\adc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\fmc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\gpio.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2c.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pwm.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\spi.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\crc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\timer.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wwdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\rtc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\uart.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2s.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\usbd.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pdma.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\sc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\ps2.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\clk.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\acmp.h)(0x67A46776)
+F (..\cpu_src\Library\StdDriver\src\clk.c)(0x67A46776)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -w -I ../cpu_src/Library/CMSIS/Include -I ../cpu_src/Library/Device/Nuvoton/NUC200Series/Include -I ../cpu_src/Library/StdDriver/inc -I ../bsp_src -I ../indep_src-IC:/Users/PC/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25/Device/NUC200/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531"-o ./objects/clk.o -MD)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\NUC200Series.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cm0.h)(0x67A46776)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\cpu_src\Library\CMSIS\Include\core_cmInstr.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cmFunc.h)(0x67A46776)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\system_NUC200Series.h)(0x67A46E06)
+I (..\cpu_src\Library\StdDriver\inc\sys.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\adc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\fmc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\gpio.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2c.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pwm.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\spi.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\crc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\timer.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wwdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\rtc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\uart.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2s.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\usbd.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pdma.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\sc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\ps2.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\clk.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\acmp.h)(0x67A46776)
+F (..\cpu_src\Library\StdDriver\src\fmc.c)(0x67A46776)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -w -I ../cpu_src/Library/CMSIS/Include -I ../cpu_src/Library/Device/Nuvoton/NUC200Series/Include -I ../cpu_src/Library/StdDriver/inc -I ../bsp_src -I ../indep_src-IC:/Users/PC/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25/Device/NUC200/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531"-o ./objects/fmc.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED619F4)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\NUC200Series.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cm0.h)(0x67A46776)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\cpu_src\Library\CMSIS\Include\core_cmInstr.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cmFunc.h)(0x67A46776)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\system_NUC200Series.h)(0x67A46E06)
+I (..\cpu_src\Library\StdDriver\inc\sys.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\adc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\fmc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\gpio.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2c.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pwm.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\spi.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\crc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\timer.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wwdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\rtc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\uart.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2s.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\usbd.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pdma.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\sc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\ps2.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\clk.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\acmp.h)(0x67A46776)
+F (..\cpu_src\Library\StdDriver\src\gpio.c)(0x67A46776)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -w -I ../cpu_src/Library/CMSIS/Include -I ../cpu_src/Library/Device/Nuvoton/NUC200Series/Include -I ../cpu_src/Library/StdDriver/inc -I ../bsp_src -I ../indep_src-IC:/Users/PC/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25/Device/NUC200/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531"-o ./objects/gpio.o -MD)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\NUC200Series.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cm0.h)(0x67A46776)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\cpu_src\Library\CMSIS\Include\core_cmInstr.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cmFunc.h)(0x67A46776)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\system_NUC200Series.h)(0x67A46E06)
+I (..\cpu_src\Library\StdDriver\inc\sys.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\adc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\fmc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\gpio.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2c.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pwm.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\spi.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\crc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\timer.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wwdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\rtc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\uart.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2s.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\usbd.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pdma.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\sc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\ps2.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\clk.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\acmp.h)(0x67A46776)
+F (..\cpu_src\Library\StdDriver\src\retarget.c)(0x67A46776)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -w -I ../cpu_src/Library/CMSIS/Include -I ../cpu_src/Library/Device/Nuvoton/NUC200Series/Include -I ../cpu_src/Library/StdDriver/inc -I ../bsp_src -I ../indep_src-IC:/Users/PC/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25/Device/NUC200/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531"-o ./objects/retarget.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED619F4)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\NUC200Series.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cm0.h)(0x67A46776)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\cpu_src\Library\CMSIS\Include\core_cmInstr.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cmFunc.h)(0x67A46776)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\system_NUC200Series.h)(0x67A46E06)
+I (..\cpu_src\Library\StdDriver\inc\sys.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\adc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\fmc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\gpio.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2c.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pwm.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\spi.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\crc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\timer.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wwdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\rtc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\uart.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2s.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\usbd.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pdma.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\sc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\ps2.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\clk.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\acmp.h)(0x67A46776)
+F (..\cpu_src\Library\StdDriver\src\rtc.c)(0x67A46776)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -w -I ../cpu_src/Library/CMSIS/Include -I ../cpu_src/Library/Device/Nuvoton/NUC200Series/Include -I ../cpu_src/Library/StdDriver/inc -I ../bsp_src -I ../indep_src-IC:/Users/PC/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25/Device/NUC200/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531"-o ./objects/rtc.o -MD)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\NUC200Series.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cm0.h)(0x67A46776)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\cpu_src\Library\CMSIS\Include\core_cmInstr.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cmFunc.h)(0x67A46776)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\system_NUC200Series.h)(0x67A46E06)
+I (..\cpu_src\Library\StdDriver\inc\sys.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\adc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\fmc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\gpio.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2c.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pwm.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\spi.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\crc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\timer.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wwdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\rtc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\uart.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2s.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\usbd.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pdma.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\sc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\ps2.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\clk.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\acmp.h)(0x67A46776)
+F (..\cpu_src\Library\StdDriver\src\sys.c)(0x67A46776)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -w -I ../cpu_src/Library/CMSIS/Include -I ../cpu_src/Library/Device/Nuvoton/NUC200Series/Include -I ../cpu_src/Library/StdDriver/inc -I ../bsp_src -I ../indep_src-IC:/Users/PC/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25/Device/NUC200/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531"-o ./objects/sys.o -MD)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\NUC200Series.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cm0.h)(0x67A46776)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\cpu_src\Library\CMSIS\Include\core_cmInstr.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cmFunc.h)(0x67A46776)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\system_NUC200Series.h)(0x67A46E06)
+I (..\cpu_src\Library\StdDriver\inc\sys.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\adc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\fmc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\gpio.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2c.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pwm.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\spi.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\crc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\timer.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wwdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\rtc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\uart.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2s.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\usbd.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pdma.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\sc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\ps2.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\clk.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\acmp.h)(0x67A46776)
+F (..\cpu_src\Library\StdDriver\src\timer.c)(0x67A46776)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -w -I ../cpu_src/Library/CMSIS/Include -I ../cpu_src/Library/Device/Nuvoton/NUC200Series/Include -I ../cpu_src/Library/StdDriver/inc -I ../bsp_src -I ../indep_src-IC:/Users/PC/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25/Device/NUC200/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531"-o ./objects/timer.o -MD)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\NUC200Series.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cm0.h)(0x67A46776)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\cpu_src\Library\CMSIS\Include\core_cmInstr.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cmFunc.h)(0x67A46776)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\system_NUC200Series.h)(0x67A46E06)
+I (..\cpu_src\Library\StdDriver\inc\sys.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\adc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\fmc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\gpio.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2c.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pwm.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\spi.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\crc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\timer.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wwdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\rtc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\uart.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2s.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\usbd.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pdma.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\sc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\ps2.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\clk.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\acmp.h)(0x67A46776)
+F (..\cpu_src\Library\StdDriver\src\uart.c)(0x67A46776)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -w -I ../cpu_src/Library/CMSIS/Include -I ../cpu_src/Library/Device/Nuvoton/NUC200Series/Include -I ../cpu_src/Library/StdDriver/inc -I ../bsp_src -I ../indep_src-IC:/Users/PC/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25/Device/NUC200/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531"-o ./objects/uart.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED619F4)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\NUC200Series.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cm0.h)(0x67A46776)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\cpu_src\Library\CMSIS\Include\core_cmInstr.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cmFunc.h)(0x67A46776)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\system_NUC200Series.h)(0x67A46E06)
+I (..\cpu_src\Library\StdDriver\inc\sys.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\adc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\fmc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\gpio.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2c.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pwm.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\spi.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\crc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\timer.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wwdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\rtc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\uart.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2s.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\usbd.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pdma.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\sc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\ps2.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\clk.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\acmp.h)(0x67A46776)
+F (..\cpu_src\Library\StdDriver\src\wdt.c)(0x67A46776)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -w -I ../cpu_src/Library/CMSIS/Include -I ../cpu_src/Library/Device/Nuvoton/NUC200Series/Include -I ../cpu_src/Library/StdDriver/inc -I ../bsp_src -I ../indep_src-IC:/Users/PC/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25/Device/NUC200/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531"-o ./objects/wdt.o -MD)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\NUC200Series.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cm0.h)(0x67A46776)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\cpu_src\Library\CMSIS\Include\core_cmInstr.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cmFunc.h)(0x67A46776)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\system_NUC200Series.h)(0x67A46E06)
+I (..\cpu_src\Library\StdDriver\inc\sys.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\adc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\fmc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\gpio.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2c.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pwm.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\spi.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\crc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\timer.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wwdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\rtc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\uart.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2s.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\usbd.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pdma.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\sc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\ps2.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\clk.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\acmp.h)(0x67A46776)
+F (..\indep_src\main.c)(0x67AD98E5)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -ffunction-sections -w -I ../cpu_src/Library/CMSIS/Include -I ../cpu_src/Library/Device/Nuvoton/NUC200Series/Include -I ../cpu_src/Library/StdDriver/inc -I ../bsp_src -I ../indep_src-IC:/Users/PC/AppData/Local/Arm/Packs/Nuvoton/NuMicro_DFP/1.3.25/Device/NUC200/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="531"-o ./objects/main.o -MD)
+I (..\bsp_src\bsp_nuc220x_system.h)(0x67A46E06)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5ED619F4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5ED619F4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5ED619F4)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\NUC200Series.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cm0.h)(0x67A46776)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (..\cpu_src\Library\CMSIS\Include\core_cmInstr.h)(0x67A46776)
+I (..\cpu_src\Library\CMSIS\Include\core_cmFunc.h)(0x67A46776)
+I (..\cpu_src\Library\Device\Nuvoton\NUC200Series\Include\system_NUC200Series.h)(0x67A46E06)
+I (..\cpu_src\Library\StdDriver\inc\sys.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\adc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\fmc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\gpio.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2c.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pwm.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\spi.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\crc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\timer.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\wwdt.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\rtc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\uart.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\i2s.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\usbd.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\pdma.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\sc.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\ps2.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\clk.h)(0x67A46776)
+I (..\cpu_src\Library\StdDriver\inc\acmp.h)(0x67A46776)
+I (..\bsp_src\bsp_nuc220x_UART.h)(0x67AACCA8)
+I (..\bsp_src\bsp_nuc220x_BootLoader.h)(0x67AC5B67)
